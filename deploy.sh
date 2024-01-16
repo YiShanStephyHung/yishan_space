@@ -13,6 +13,7 @@ git push origin main
 # 進到gh-pages
 # 需先刪除原gh-pages分支
 cd dist
+git branch -M gh-pages
 git init
 git add .
 git commit -m "deploy"
