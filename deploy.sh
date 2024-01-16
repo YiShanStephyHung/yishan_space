@@ -14,6 +14,6 @@ git add -A
 git commit -m 'deploy'
 
 # 部署到 分支 gh-pages
-git push -f https://github.com/YiShanStephyHung/yishan_space.git gh-pages
+git push -f https://github.com/YiShanStephyHung/yishan_space.git main:gh-pages
 
 cd -
