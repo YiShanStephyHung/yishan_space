@@ -17,7 +17,7 @@ git branch -M gh-pages
 git init
 git add .
 git commit -m "deploy"
-git push -f https://github.com/YiShanStephyHung/yishan_space.git gh-pages
+git push -f https://github.com/YiShanStephyHung/yishan_space.git main:gh-pages
 
 # #!/usr/bin/env sh
 # # 當發生錯誤時終止腳本運行
