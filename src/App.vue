@@ -4,9 +4,16 @@
 </template>
 
 <style lang="scss">
-* {
-  padding: 0;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
 }
 
 #app {
@@ -15,10 +22,5 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-
-footer {
-  background-color: grey;
-  height: 10rem;
 }
 </style>
